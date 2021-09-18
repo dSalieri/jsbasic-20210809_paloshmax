@@ -29,7 +29,6 @@ export default class StepSlider {
       progress: this._elem.querySelector(".slider__progress"),
       steps: this._elem.querySelector(".slider__steps"),
     };
-    this._setInterface(this._calculations());
     this._engine();
   }
 
